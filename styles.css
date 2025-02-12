@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding-top: 40px;
+}
+.task-input{
+    padding: 0 12px 0 12px;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.divider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    margin: 0 auto;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.add-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height: 32px;
+}
+
+.delete-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 80px;
+    height: 32px;
+    margin-left: 32px;
+    margin-bottom: 4px;
+}
+
+.delete-btn, .complete-btn, .add-btn:hover{
+    cursor: pointer;
+}
+
+.complete-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    width: 80px;
+    height: 32px;
+    margin-left: 32px;
+    margin-bottom: 4px;
+}
